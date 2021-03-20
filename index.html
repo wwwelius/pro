@@ -6,6 +6,8 @@
     <title>First - Website</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,8 +16,6 @@
         <div class="loader">
             <img src="images/Logo-Preloaders-GIFs.gif" alt="loading">
         </div>
-        
-
     </div>
     <div id="progressbar"></div>
     <div id="scrollpath"></div>
@@ -76,7 +76,9 @@
                     <img src="images/about-item1.jpg" alt="about-item">
                     <div class="about-overlay">
                         <div class="about-content">
-                            <i class="fa fa-user"></i>
+                            <a href="images/about-item1.jpg" data-lightbox="roadtrip">
+                                  <i class="fa fa-user"></i>
+                            </a>
                             <h3>Super Team</h3>
                         </div>
                     </div>
@@ -85,7 +87,9 @@
                     <img src="images/about-item2.jpg" alt="about-item">
                     <div class="about-overlay">
                         <div class="about-content">
-                            <i class="fa fa-user"></i>
+                            <a href="images/about-item2.jpg" data-lightbox="roadtrip">
+                                <i class="fa fa-user"></i>
+                          </a>
                             <h3>Super Team</h3>
                         </div>
                     </div>
@@ -94,7 +98,9 @@
                     <img src="images/about-item3.jpg" alt="about-item">
                     <div class="about-overlay">
                         <div class="about-content">
-                            <i class="fa fa-user"></i>
+                            <a href="images/about-item3.jpg" data-lightbox="roadtrip">
+                                <i class="fa fa-user"></i>
+                          </a>
                             <h3>Super Team</h3>
                         </div>
                     </div>
@@ -109,23 +115,23 @@
         <div class="container">
             <div class="funfact-main">
                 <div class="funfact-item">
-                    <h3>42</h3>
+                    <h3 class="counter">42</h3>
                     <p>Web design project</p>
                 </div>
                 <div class="funfact-item">
-                    <h3>123</h3>
+                    <h3 class="counter">123</h3>
                     <p>happy client</p>
                 </div>
                 <div class="funfact-item">
-                    <h3>15</h3>
+                    <h3 class="counter">15</h3>
                     <p>Award winner</p>
                 </div>
                 <div class="funfact-item">
-                    <h3>42</h3>
+                    <h3 class="counter">42</h3>
                     <p>Web design project</p>
                 </div>
                 <div class="funfact-item">
-                    <h3>42</h3>
+                    <h3 class="counter">42</h3>
                     <p>Web design project</p>
                 </div>
             </div>
@@ -233,6 +239,7 @@
                     <div class="team-img">
                         <img src="images/team1.png" alt="team1" width="100%">
                         <div class="team-overlay">
+                            
                             <div class="social">
                                 <a href="#"><i class="fa fa-facebook-f"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
@@ -242,7 +249,9 @@
                         </div>
                     </div>
                     <div class="team-info">
-                        <h3>Matthew Dix</h3>
+                        <a href="images/team1.png" data-lightbox="roadtrip">
+                            <h3>Matthew Dix</h3>
+                      </a>
                         <p>Graphic Design</p>
                     </div>
                 </div>
@@ -259,7 +268,10 @@
                         </div>
                     </div>
                     <div class="team-info">
-                        <h3>Christopher Campbell</h3>
+                        
+                        <a href="images/team2.png" data-lightbox="roadtrip">
+                            <h3>Christopher Campbell</h3>
+                      </a>
                         <p>Branding/UX design</p>
                     </div>
                 </div>
@@ -276,7 +288,10 @@
                         </div>
                     </div>
                     <div class="team-info">
-                        <h3>Michael Fertig</h3>
+                        
+                        <a href="images/team3.png" data-lightbox="roadtrip">
+                            <h3>Michael Fertig</h3>
+                      </a>
                         <p>Developer</p>
                     </div>
                 </div>
@@ -300,7 +315,10 @@
                     <img src="images/gal1.png" alt="gal1" width="100%">
                     <div class="gal-overlay">
                         <div class="gal-info">
-                            <i class="fa fa-picture-o"></i>
+                            
+                            <a href="images/gal1.png" data-lightbox="roadtrip">
+                                <i class="fa fa-picture-o"></i>
+                          </a>
                             <h3>creatively designed</h3>
                             <p>Lorem ipsum dolor sit</p>
                         </div>
@@ -310,7 +328,9 @@
                     <img src="images/gal4.png" alt="gal4" width="100%">
                     <div class="gal-overlay">
                         <div class="gal-info">
-                            <i class="fa fa-picture-o"></i>
+                            <a href="images/gal4.png" data-lightbox="roadtrip">
+                                <i class="fa fa-picture-o"></i>
+                          </a>
                             <h3>creatively designed</h3>
                             <p>Lorem ipsum dolor sit</p>
                         </div>
@@ -322,7 +342,9 @@
                     <img src="images/gal2.png" alt="gal" width="100%">
                     <div class="gal-overlay">
                         <div class="gal-info">
-                            <i class="fa fa-picture-o"></i>
+                            <a href="images/gal2.png" data-lightbox="roadtrip">
+                                <i class="fa fa-picture-o"></i>
+                          </a>
                             <h3>creatively designed</h3>
                             <p>Lorem ipsum dolor sit</p>
                         </div>
@@ -332,7 +354,9 @@
                     <img src="images/gal6.png" alt="gal6" width="100%">
                     <div class="gal-overlay">
                         <div class="gal-info">
-                            <i class="fa fa-picture-o"></i>
+                            <a href="images/gal6.png" data-lightbox="roadtrip">
+                                <i class="fa fa-picture-o"></i>
+                          </a>
                             <h3>creatively designed</h3>
                             <p>Lorem ipsum dolor sit</p>
                         </div>
@@ -344,7 +368,9 @@
                     <img src="images/gal5.png" alt="gal5" width="100%">
                     <div class="gal-overlay">
                         <div class="gal-info">
-                            <i class="fa fa-picture-o"></i>
+                            <a href="images/gal5.png" data-lightbox="roadtrip">
+                                <i class="fa fa-picture-o"></i>
+                          </a>
                             <h3>creatively designed</h3>
                             <p>Lorem ipsum dolor sit</p>
                         </div>
@@ -356,7 +382,9 @@
                     <img src="images/gal3.png" alt="gal3" width="100%">
                     <div class="gal-overlay">
                         <div class="gal-info">
-                            <i class="fa fa-picture-o"></i>
+                            <a href="images/gal3.png" data-lightbox="roadtrip">
+                                <i class="fa fa-picture-o"></i>
+                          </a>
                             <h3>creatively designed</h3>
                             <p>Lorem ipsum dolor sit</p>
                         </div>
@@ -366,7 +394,9 @@
                     <img src="images/gal7.png" alt="gal7" width="100%">
                     <div class="gal-overlay">
                         <div class="gal-info">
-                            <i class="fa fa-picture-o"></i>
+                            <a href="images/gal7.png" data-lightbox="roadtrip">
+                                <i class="fa fa-picture-o"></i>
+                          </a>
                             <h3>creatively designed</h3>
                             <p>Lorem ipsum dolor sit</p>
                         </div>
@@ -378,7 +408,7 @@
      <!-- ################################
         Footer section start from here 
     #####################################  -->
-    <a href="#" class="back-to-top">
+    <a class="back-to-top">
         <i class="fa fa-chevron-up"></i>
     </a>
     <footer id="footer">
@@ -411,6 +441,11 @@
                     <div class="blog-item">
                         <div class="blog-img">
                             <img src="images/blog1.png" alt="blog1">
+                            <div class="blog-overlay">
+                                <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/e5VmBvRvuHI">
+                                    <i class="fa fa-play"></i>
+                                </a>
+                            </div>
                         </div>
                         <div class="blog-text">
                             <h4>Lorem ipsum dolor sit amet, 
@@ -421,6 +456,11 @@
                     <div class="blog-item">
                         <div class="blog-img">
                             <img src="images/blog2.png" alt="blog2">
+                            <div class="blog-overlay">
+                                <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/0La58bUNNzQ">
+                                    <i class="fa fa-play"></i>
+                                </a>
+                            </div>
                         </div>
                         <div class="blog-text">
                             <h4>Consectetur adipiscing elit, 
@@ -431,6 +471,11 @@
                     <div class="blog-item">
                         <div class="blog-img">
                             <img src="images/blog3.png" alt="blog3">
+                            <div class="blog-overlay">
+                                <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/EVni8tvyjLA">
+                                    <i class="fa fa-play"></i>
+                                </a>
+                            </div>
                         </div>
                         <div class="blog-text">
                             <h4>sed do eiusmod tempor 
@@ -443,31 +488,57 @@
                     <h3>Instagram</h3>
                     <div class="insta-main">
                         <div class="insta-item">
-                            <img src="images/insta.png" alt="insta">
+                            <a class="venobox" data-gall="gallery01" href="images/insta.png">
+                                <img src="images/insta.png" alt="insta">
+                            </a>
                         </div>
                         <div class="insta-item">
-                            <img src="images/insta2.png" alt="insta1">
+                            
+                            <a class="venobox" data-gall="gallery01" href="images/insta2.png">
+                                <img src="images/insta2.png" alt="insta1">
+                            </a>
                         </div>
                         <div class="insta-item">
-                            <img src="images/insta3.png" alt="insta2">
+                            
+                            <a class="venobox" data-gall="gallery01" href="images/insta3.png">
+                                <img src="images/insta3.png" alt="insta2">
+                            </a>
                         </div>
                         <div class="insta-item">
-                            <img src="images/insta4.png" alt="insta3">
+                            
+                            <a class="venobox" data-gall="gallery01" href="images/insta4.png">
+                                <img src="images/insta4.png" alt="insta4">
+                            </a>
                         </div>
                         <div class="insta-item">
-                            <img src="images/insta5.png" alt="insta4">
+                            
+                            <a class="venobox" data-gall="gallery01" href="images/insta5.png">
+                                <img src="images/insta5.png" alt="insta5">
+                            </a>
                         </div>
                         <div class="insta-item">
-                            <img src="images/insta6.png" alt="insta5">
+                            
+                            <a class="venobox" data-gall="gallery01" href="images/insta6.png">
+                                <img src="images/insta6.png" alt="insta6">
+                            </a>
                         </div>
                         <div class="insta-item">
-                            <img src="images/insta7.png" alt="insta6">
+                            
+                            <a class="venobox" data-gall="gallery01" href="images/insta7.png">
+                                <img src="images/insta7.png" alt="insta7">
+                            </a>
                         </div>
                         <div class="insta-item">
-                            <img src="images/insta8.png" alt="insta7">
+                            
+                            <a class="venobox" data-gall="gallery01" href="images/insta8.png">
+                                <img src="images/insta8.png" alt="insta8">
+                            </a>
                         </div>
                         <div class="insta-item">
-                            <img src="images/insta9.png" alt="insta8">
+                            
+                            <a class="venobox" data-gall="gallery01" href="images/insta9.png">
+                                <img src="images/insta9.png" alt="insta9">
+                            </a>
                         </div>
                     </div>
                     <div class="view-btn">
@@ -479,8 +550,39 @@
                 <p>© 2016 MoGo free PSD template by <span>Laaqiq</span></p>
             </div>
         </div>
+        <section id="count">
+            <div class="container">
+                <div class="count-main">
+                    <div class="count-item">
+                        <h2>Countdown to pohela boishakh:</h2>
+                    </div>
+                    
+                    <div class="count-item">
+                        <h3 id="days">00</h3>
+                        <p>Days</p>
+                    </div>
+                    <div class="count-item">
+                        <h3 id="hours">00</h3>
+                        <p>Hours</p>
+                    </div>
+                    <div class="count-item">
+                        <h3 id="minutes">00</h3>
+                        <p>Minutes</p>
+                    </div>
+                    <div class="count-item">
+                        <h3 id="seconds">00</h3>
+                        <p>Seconds</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+      
     </footer>
     <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
     <script src="js/custom.js"></script>
 </body>
 </html>
